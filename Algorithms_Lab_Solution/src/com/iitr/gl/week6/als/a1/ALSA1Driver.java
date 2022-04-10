@@ -47,12 +47,12 @@ public class ALSA1Driver {
 					System.out.println("Target " + targetAmount + " can't be achieved");
 				}
 
-				System.out.println("Do you have other target? : [ No-0, Yes-Any other value]");
+				System.out.println("\nDo you have other target? : [ No-0, Yes-Any other value]");
 				option = scanner.nextInt();
 
 			} while (option != 0);
 
-			System.out.println("Do you want repeat? : [ No-0, Yes-Any other value]");
+			System.out.println("\nDo you want repeat? : [ No-0, Yes-Any other value]");
 			option = scanner.nextInt();
 
 		} while (option != 0);

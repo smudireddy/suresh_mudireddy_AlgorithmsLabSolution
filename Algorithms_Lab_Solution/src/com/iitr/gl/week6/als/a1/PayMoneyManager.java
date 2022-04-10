@@ -47,8 +47,6 @@ public class PayMoneyManager {
 		if(targetAmount == 0) {
 			return 0;
 		}
-		
-		System.out.println("--->" + Arrays.toString(cumulativeTransactions));
 		return findNumberOfTransactionToAcheiveTarget(targetAmount, 0, noOfTransactions-1);
 	}
 	
