@@ -48,12 +48,12 @@ public class ALSA2Driver {
 					}
 				}
 
-				System.out.println("\nDo you have other payment ? : [ No-0, Yes-Any other value]");
+				System.out.println("\nDo you have other payment? : [ No-0, Yes-Any other value]");
 				option = scanner.nextInt();
 
 			} while (option != 0);
 
-			System.out.println("\nDo you want to continue ? :[ No-0, Yes-Any other value]");
+			System.out.println("\nDo you want to repeat? :[ No-0, Yes-Any other value]");
 			option = scanner.nextInt();
 
 		} while (option != 0);
